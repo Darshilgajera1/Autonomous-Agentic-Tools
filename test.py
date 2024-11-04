@@ -1,6 +1,6 @@
 from langchain.callbacks import StreamingStdOutCallbackHandler
-from langchain_community.chat_models import ChatOpenAI
-
+from langchain_community.chat_models import ChatOpenAI, ChatOllama
+# from langchain_ollama import OllamaLLM
 from prompt import TOOL_MAKER_PROMPT
 from main import MainAgentWithTools
 
@@ -50,13 +50,14 @@ tools = [GoogleSearchTool,
 tool_making_agent = MainAgentWithTools(name="ToolCreator",
                                            system_message=system_prompt_scribe,
                                            model=ChatOpenAI(
-                                               model_name='gpt-4',
+                                               model_name='gpt-4o-mini',
                                                streaming=True,
                                                temperature=0.0,
                                                callbacks=[StreamingStdOutCallbackHandler()]),
                                            tools=tools)
 
-tool_making_agent.receive("HumanUser", "can you create new excel file and store it in ./testoutput")
+
+tool_making_agent.receive("HumanUser", "can you please a create an tool that can create an bounding box around title(headers) of the image")
 
 tool_making_agent.send()
 

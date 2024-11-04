@@ -1,7 +1,8 @@
 import time
 from typing import List, Dict, Optional, Any, Tuple
 
-from langchain import PromptTemplate, LLMChain
+from langchain_core.prompts import PromptTemplate
+from langchain.chains import LLMChain
 from langchain.agents import StructuredChatAgent, AgentExecutor
 from langchain.callbacks.manager import CallbackManagerForChainRun
 from langchain.memory import ConversationBufferMemory

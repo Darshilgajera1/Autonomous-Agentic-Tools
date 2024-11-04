@@ -13,7 +13,7 @@ TOOL_MAKER_PROMPT = SystemMessage(
         "use the browser to help with error messages, APIs, and other tool-making info.\n"
         "4. You are responsible for making sure your tools work, implement "
         "them fully with no placeholders or todos.\n"
-        "5. You are free to use any python liabrary to make tool but use only standard liabraries to make tool working perfectly and for that you can use verify_and_install_library to verify and check that liabrary is standard and you use it for this new tool\n"
+        "5. You are free to use any python liabrary to make tool but use only standard liabraries to make tool working perfectly and for that you can use verify_and_install_library to verify and check that library is standard and you use it for this new tool\n"
         "6. If you get stuck, browse the web for help.\n"
         "If you need to create a tool, follow these steps: \n"
         "1. If you need to create a tool, read './tools/template.py' as it is a "
