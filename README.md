@@ -20,10 +20,12 @@ PoT is designed to enhance the efficiency and autonomy of LLM agents by providin
 
 ## Getting Started
 To get started with PoT:
-1. Clone the repository: `git clone https://github.com/your-username/pot.git`
+1. Clone the repository: `https://github.com/Darshilgajera1/Autonomous-Agentic-Tools.git`
 2. Navigate to the project directory: `cd pot`
 3. Install the necessary dependencies: `pip install -r requirements.txt`
-
+4. It requires an OpenAI API keys So configure first.
+5. To run project: `python3 test.py`
+ 
 ## Contributing
 Contributions are welcome! Whether it's adding new features, fixing bugs, or improving documentation, feel free to submit a pull request.
 
@@ -31,8 +33,8 @@ Contributions are welcome! Whether it's adding new features, fixing bugs, or imp
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ## Contact
-For any questions or suggestions, please feel free to contact me at my telegram [@dipen_IVII].
+For any questions or suggestions, please feel free to contact me at my telegram [@darshilgajera].
 
 ---
 
-Thank you for checking out PoT! We hope it becomes an invaluable platform in your AI development journey.
+Thank you for checking out Autonomous Agentic Tools System! We hope it becomes an invaluable platform in your AI development journey.
