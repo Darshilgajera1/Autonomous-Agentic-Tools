@@ -6,6 +6,8 @@ Its an dynamic platform enabling Large Language Models (LLMs) to autonomously cr
 - **Collaborative Environment:** Tools created by one agent are made accessible to other agents, fostering a collaborative ecosystem where agents can learn from and build upon each other's work.
 - **Efficient Task Resolution:** By leveraging existing tools in the pot, agents can quickly and efficiently solve user problems, reducing redundancy and maximizing resource utilization.
 
+![Workflow of the Autonomous Agentic Tools](images/Diagram.jpg)
+
 ## How It Works
 1. **User Input:** A human user provides input to an LLM agent, specifying a task or problem that needs to be solved.
 2. **Tool Search:** The agent checks the PoT to see if there is an existing tool that can be used to complete the task.
